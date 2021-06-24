@@ -1,0 +1,46 @@
+we want to change one parameter at a time and see what will happens:
+
+* NUMBER OF THE FIRST POPULATION
+    - number of population = 20 (equals to the number of the cities):
+        average fitness: 374
+        average genarations: 1151
+        best fitness: 278
+        best genarations: 1019
+
+    - number of population = 40 (twice the number of the cities):
+        average fitness: 357
+        average genarations: 1136
+        best fitness: 275
+        best genarations: 1010
+
+    we can see that if increase the size of the first population we can get a better result.
+
+* CHOOSE "N" PERCENT OF EACH GENERATION:
+    - N = 50:
+        average fitness: 373
+        average genarations: 1146
+        best fitness: 271
+        best genarations: 1018
+    - N = 25:
+        average fitness: 401
+        average genarations: 1310
+        best fitness: 282
+        best genarations: 1029
+
+    from what we can see, when we decrease N it is not good all the time.
+
+* WHEN WE STOP(STOP AFTER m TIMES THAT BEST FITNESS DIDN'T CHANGE:)
+    - end_point = 100:
+        average fitness: 324
+        average genarations: 254
+        best fitness: 264
+        best genarations: 117
+    - end_point = 1000:
+        average fitness: 374
+        average genarations: 1151
+        best fitness: 271
+        best genarations: 1018
+
+    you can see that the stop point here is not important.
+
+I think that it is really working randomly.
